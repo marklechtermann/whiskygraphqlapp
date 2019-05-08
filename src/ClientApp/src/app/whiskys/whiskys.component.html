@@ -1,0 +1,16 @@
+<p *ngIf="!whiskys"><em>Loading...</em></p>
+
+<div style="margin: 5px;" *ngIf="whiskys">
+  <h1>Whiskys</h1>
+  <div class="row" *ngFor="let whisky of whiskys" style="margin: 10px">
+    <div
+      class="col-xs-12"
+      style="padding: 10px; text-align: left;border-radius: 4px; box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);"
+    >
+      Name:{{ whisky.name }}<br />
+      Age:{{ whisky.age }}<br />
+      Destillery:{{ whisky.destillery.name }}<br />
+      Owner:{{ whisky.destillery.owner }}<br />
+    </div>
+  </div>
+</div>

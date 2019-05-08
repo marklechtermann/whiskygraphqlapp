@@ -10,7 +10,7 @@ https://hub.docker.com/r/marklechtermann/whiskygraphqlapp
 
 ## How to run this application
 
-Yout need .NET Core >= 2.1
+You need .NET Core >= 2.1
 
 `./run.sh`
 

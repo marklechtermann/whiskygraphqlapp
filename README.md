@@ -2,6 +2,9 @@
 
 A small demo application for the **Dot NET Cologne 2019**  (https://dotnet-cologne.de/Vortraege.ashx#graphql)
 
+Slides:
+https://www.slideshare.net/MarkLechtermann/graphql-with-net-core
+
 ## How to run this application with Docker
 
 `docker run -p 5000:5000 marklechtermann/whiskygraphqlapp`
